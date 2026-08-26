@@ -1,0 +1,32 @@
+{
+  "dataset": {
+    "name": "Optical Recognition of Handwritten Digits (sklearn load_digits)",
+    "n_samples": 1797,
+    "n_features": 64,
+    "n_classes": 10,
+    "train_size": 1257,
+    "val_size": 270,
+    "test_size": 270
+  },
+  "custom_dnn": {
+    "accuracy": 0.9851851851851852,
+    "precision_macro": 0.9867511520737328,
+    "recall_macro": 0.9846153846153847,
+    "f1_macro": 0.9847637390857729,
+    "train_time_sec": 1.786592721939087,
+    "epochs_run": 87
+  },
+  "logistic_regression": {
+    "accuracy": 0.9851851851851852,
+    "precision_macro": 0.9854111405835544,
+    "recall_macro": 0.98503256003256,
+    "f1_macro": 0.9851577419601252
+  },
+  "sklearn_mlp": {
+    "accuracy": 0.9740740740740741,
+    "precision_macro": 0.9750346278572086,
+    "recall_macro": 0.9736365486365488,
+    "f1_macro": 0.973907175663172,
+    "train_time_sec": 0.5800468921661377
+  }
+}

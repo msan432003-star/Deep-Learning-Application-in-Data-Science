@@ -1,0 +1,20 @@
+{
+  "No regularization": {
+    "test_accuracy": 0.9777777777777777,
+    "final_train_acc": 1.0,
+    "final_val_acc": 0.9740740740740741,
+    "train_val_acc_gap": 0.025925925925925908
+  },
+  "L2 only": {
+    "test_accuracy": 0.9777777777777777,
+    "final_train_acc": 1.0,
+    "final_val_acc": 0.9740740740740741,
+    "train_val_acc_gap": 0.025925925925925908
+  },
+  "Dropout + L2 (used)": {
+    "test_accuracy": 0.9851851851851852,
+    "final_train_acc": 1.0,
+    "final_val_acc": 0.9814814814814815,
+    "train_val_acc_gap": 0.01851851851851849
+  }
+}
